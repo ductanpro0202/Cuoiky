@@ -1,0 +1,29 @@
+:root {
+    --primary-color: pink; /* Định nghĩa biến --primary-color với giá trị blue */
+  }
+
+.notice{
+    color:var(--primary-color);
+}
+.admincp_list {
+    display: flex;
+    list-style: none; /* Loại bỏ dấu chấm liên kết mặc định của danh sách */
+    padding: 0; /* Loại bỏ khoảng cách lề bên ngoài của danh sách */
+}
+
+.container {
+    display: flex;
+}
+
+.title_admin{
+    text-align: left;
+   
+}
+
+.btn-dangxuat:hover{
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+
+
