@@ -48,20 +48,20 @@
   width: 350px;
   margin:50px auto;
   padding: 20px;
-  background-color: #fce4ec; /* Màu nền trắng cho phần container */
+  background-color: #fce4ec; 
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 h2 {
-  color: #ff4081; /* Màu hồng */
+  color: #ff4081; 
   text-align: center;
 }
 
 label {
   display: block;
   margin-bottom: 5px;
-  color: #ff4081; /* Màu hồng cho label */
+  color: #ff4081; 
 }
 
 input[type="text"],
@@ -73,10 +73,10 @@ input[type="submit"] {
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ff4081;
-    /* Viền màu hồng */
+
     border-radius: 4px;
     background-color: #fff;
-    /* Màu nền trắng cho input */
+   
 }
 
 input[type="text"]:focus,
@@ -92,23 +92,21 @@ input[type="password"]:focus {
 
 input[type="submit"] {
     background-color: #ff4081;
-    /* Màu nền của nút submit */
+   
     color: #fff;
-    /* Màu chữ trắng */
+
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 input[type="submit"]:hover {
     background-color: #d81b60;
-    /* Màu nền hover */
+  
 }
 
 a button {
     background-color: #fff;
-    /* Màu nền của button đăng nhập */
     color: #ff4081;
-    /* Màu chữ của button đăng nhập */
     border: 1px solid #ff4081;
     padding: 8px 16px;
     border-radius: 4px;
@@ -120,9 +118,7 @@ a button {
 
 a button:hover {
     background-color: #ff4081;
-    /* Màu nền hover của button đăng nhập */
     color: #fff;
-    /* Màu chữ hover của button đăng nhập */
     cursor: pointer;
 }
 </style>

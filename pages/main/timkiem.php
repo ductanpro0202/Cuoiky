@@ -7,9 +7,9 @@ if (isset($_POST['timkiem'])) {
                 OR tbl_danhmuc.tendanhmuc LIKE '%" . $tukhoa . "%'";
     $query_pro = mysqli_query($mysqli, $sql_pro);
 
-    $num_rows = mysqli_num_rows($query_pro); // Store the number of rows
+    $num_rows = mysqli_num_rows($query_pro); 
 
-    if ($num_rows > 0) { // Check if there are results
+    if ($num_rows > 0) { 
 ?>
         <p class="notice">Từ khóa tìm kiếm: <?php echo $_POST['tukhoa']; ?></p>
         <ul class="product_list">
@@ -29,7 +29,7 @@ if (isset($_POST['timkiem'])) {
         </ul>
     <?php
     } else {
-        echo "Không tìm thấy sản phẩm"; // Display this message if no products are found
+        echo "Không tìm thấy sản phẩm"; 
     }
 }
 ?>

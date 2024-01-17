@@ -32,36 +32,36 @@ if(isset($_POST['dangnhap'])){
     <a  href="index.php?quanly=dangky" class="next_login">Đăng ký nếu chưa có tài khoản</a>
 </div>
 <style>
-    /* CSS */
+   
 
     .container-login-register {
   width: 350px;
   margin:50px auto;
   padding: 20px;
-  background-color: #fce4ec; /* Màu nền trắng cho phần container */
+  background-color: #fce4ec; 
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 h2 {
-  color: #ff4081; /* Màu hồng */
+  color: #ff4081; 
   text-align: center;
 }
 
 label {
   display: block;
   margin-bottom: 5px;
-  color: #ff4081; /* Màu hồng cho label */
+  color: #ff4081; 
 }
 
 
 input[type="email"],
 input[type="password"],
 input[type="submit"] {
-    width: calc(100% - 12px); /* Chiều rộng của input trừ đi viền */
+    width: calc(100% - 12px); 
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #ccc; /* Viền mặc định */
+    border: 1px solid #ccc; 
     border-radius: 4px;
     background-color: #fff;
 }
@@ -69,19 +69,19 @@ input[type="submit"] {
 input[type="email"]:focus,
 input[type="password"]:focus {
     outline: none;
-    border-color: #ff4081; /* Màu viền khi focus */
-    box-shadow: 0 0 5px rgba(255, 64, 129, 0.5); /* Hiệu ứng shadow khi focus */
+    border-color: #ff4081; 
+    box-shadow: 0 0 5px rgba(255, 64, 129, 0.5);
 }
 
 input[type="submit"] {
-    background-color: #ff4081; /* Màu nền của nút submit */
-    color: #fff; /* Màu chữ trắng */
+    background-color: #ff4081;
+    color: #fff; 
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền */
+    transition: background-color 0.3s ease; 
 }
 
 input[type="submit"]:hover {
-    background-color: #d81b60; /* Màu nền hover */
+    background-color: #d81b60; 
 }
 </style>
 
